@@ -1,4 +1,4 @@
-//Nos permite decirle a js que si no tenemos un parametro no tiene valor, que tenga uno por defecto
+//Nos permite decirle a js que si tenemos un parametro que no tenga valor, que se cree uno por defecto
 function registrarUsuario(nombre, pais = 'No especificado', correo, telefono = 'No especificado'){
   return `Nombre: ${nombre}, Pais: ${pais}, Correo: ${correo}, Telefono: ${telefono}`;
 }
